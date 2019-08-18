@@ -32,7 +32,6 @@ int Solution::repeatedNumber(const vector<int> &A) {
     slow = A[slow];
     fast = A[fast];
   }
-  if(slow==0) return -1;
   return slow;
 
 }
